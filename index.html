@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="author" content="Colvin Kenphila">
     <meta name="description" content="Main page - index page.">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colvin Kenphila Home</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -16,15 +15,16 @@
 
 <body>
     <header>
-        <div style="text-align: center;">
-            <div>
+        <div class="navigation">
+            <div class="logo">
                 <img src="img/logo.png" alt="Colvin Kenphila Logo" style="width: 250px;">
             </div>
-            <div>
-            <nav style="border: 1px solid #000000; padding: 10px; display: inline-block; background-color: white;">
-                <a href="index.html">Work</a>
-                <a href="about.html">About</a>
-                <a href="#contact">Contact</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>        
             </nav>
             </div>
         </div>
@@ -33,8 +33,7 @@
     <main>
         <div id="hero" class="container">
             <div class="row">
-                <div class="col">
-                    <div style="border: 1px solid #000000; padding: 10px;">
+                <div class="col" style="border: 1px solid #000000; padding: 10px;" border-radius="5px">
                         <h1>Hello, My name is Colvin</h1>
                         <div>I am a UX/UI designer from Atlanta, Georgia</div>
                         <p>
@@ -49,12 +48,12 @@
         </div>    
         <div class="container">
             <div class="row" id="work">
-                <div class="col">
+                <div class="col ">
                     <picture>
                         <source srcset="img/Element/Element_logo.png" media="(max-width:767px)">
                         <img src="img/Element/Element_logo.png" alt="Element Logo">
                     </picture>
-                    <div style="border: 1px solid #000000; padding: 10px;">
+                    <div style="border: 1px solid #000000; padding: 5px;">
                         <h3>Element: Weather Mastery App</h3>
                         <p>Element was designed to be the ultimate weather companion, meticulously crafted allowing users to reclaim more of their precious time to enjoy the great outdoors. Element offers a seamless and intuitive experience for both casual weather enthusiasts and those who rely on accurate forecasts for planning their activities. This project showcases my start to finish process including research, wireframing, testing and an interactive prototype using Figma.</p>
                         <a href="element.html" class="button">Read More</a>
@@ -65,7 +64,7 @@
                         <source srcset="img/Terminalstudy/Terminal_study_logo.png" media="(max-width:767px)">
                         <img src="img/Terminalstudy/Terminal_study_logo.png" alt="Terminal Study Logo">
                     </picture>
-                    <div style="border: 1px solid #000000; padding: 10px;">
+                    <div style="border: 1px solid #000000; padding: 5px;">
                         <h3>Terminal Study</h3>
                         <p>Terminal Study was a prototype Vocabulary app that was designed to offer users an easy way to access vocabulary information and study those terms using games, flashcards, and more. The design of Terminal study was a simple design focusing on elements of design flow, user experience and UX design. </p>
                     </div>
@@ -86,7 +85,7 @@
                     <a href="mailto:office@careerfoundry.com" class="button">Email</a>
                 </div>
             </div>
-            <div class="col social-media">
+            <div class="col social-media-container">
                 <a href="LINKEDIN-URL" target="_blank">
                     <img src="http://via.placeholder.com/32x32" alt="LinkedIn">
                 </a>
@@ -103,5 +102,4 @@
         </div>
     </footer>
 </body>
-
 </html>
