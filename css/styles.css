@@ -7,8 +7,7 @@ header {
     background-color: #049fbb;
     padding: 10px;
     margin: 10px;
-    
-      
+
 }
 
 body {
@@ -26,6 +25,19 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
     font-weight: 600;
 }
+
+#hero {
+    background-color: #ffffff;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+    color: #000000;
+
+  }
+
+  .logo {
+    max-width: 250px;
+  }
 
 /* Link Stylings */
 a {
@@ -61,63 +73,41 @@ img {
     height: auto;
 }
 
-/* Button Styling */
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.button:hover {
-    background-color: #191a1b;
-}
-
-/* Image Styling */
-img {
-    width: 100%;
-    max-width: 100%;
-    height: auto; 
-}
-
-#hero {
-    background-color: #ffffff;
-    padding: 20px 0;
-    display: inline-block;
-    width: 100%;
-    color: #000000;
-
-  }
-
-  .logo {
-    max-width: 250px;
-  }
-
-  nav > ul > li > a {
-    padding: 0 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #4a4a4a;
-  }
-
-  .navigation {
+/*navigation Styling*/
+.navigation{
     border: 1px solid #000000;
     padding: 10px;
-    display: flex;
-    justify-content: space-between;
     background-color: white;
 }
 
-.social-media-container{
+
+.navigation > ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation > ul > li > a {
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+/*Social Media Styling*/
+.social-media-container {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
 }
+
+.social-media-container img {
+    width: 24px;
+    height: auto;
+    margin-right: 10px;
+}
+
 
 /* Style for rows */
 .row {
@@ -126,7 +116,6 @@ img {
     margin-right: -15px;
     margin-left: -15px;
 }
-
 /* Style for columns */
 .col {
     flex: 1;
@@ -158,11 +147,43 @@ img {
 }
 
 #contact .social-media {
-    margin-top: 20px; /* Add space between button and social media icons */
+    margin-top: 20px;
 }
 
 #contact .social-media img {
-    width: 24px; /* Set the width of the social media icons */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Add space between social media icons */
+    width: 24px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+
+    .button {
+        padding: 12px 24px;
+    }
+
+    .navigation > ul > li > a {
+        padding: 0 15px;
+    }
+
+    .social-media-container {
+        margin-bottom: 30px;
+    }
+
+    .social-media-container img {
+        width: 30px;
+    }
+
+    .row {
+        margin-right: -30px;
+        margin-left: -30px;
+    }
+
+    .col {
+        padding: 0 30px;
+    }
 }
