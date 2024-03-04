@@ -2,24 +2,24 @@
 <html lang="en" dir="ltr">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="author" content="Colvin Kenphila">
-    <meta name="description" content="Main page - index page.">
-    <title>Colvin Kenphila Home</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta name="author" content="Colvin Kenphila">
+    <meta name="description" content="Main page - index page.">
+    <title>Colvin Kenphila Home</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="nav">
-            <div class="logo">
-                <img src="img/logo.png" alt="Colvin Kenphila Logo" style="width: 250px;">
-            </div>
+    <header>
+        <div class="container">
+            <a class="logo" href="img/logo.png"><img src="img/logo.png" class="logo" alt="Colvin Kenphila Logo" style="width: 150px;"></a>
             <nav>
-                <ul>
+                <ul class="navigation">
                     <li><a href="index.html">Work</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -27,63 +27,51 @@
             </nav>
         </div>
     </header>
-
     <main>
-        <div id="hero" class="container">
-            <div class="row">
-                <div class="col" style="border: 1px solid #000000; padding: 10px;" border-radius="5px">
-                        <h1>Hello, My name is Colvin</h1>
-                        <div>I am a UX/UI designer from Atlanta, Georgia</div>
-                        <p>
-                            I am currently working as a web content creator for a multitude of companies at once and am currently moving to increase my knowledge in the UX space. In my free time I like to spend time discovering new things. My end goal is to create and design platforms which influence individuals to make a change for the betterment of themselves or others.
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div id="hero">
+            <div class="container">
+                <h1>Hello, My name is Colvin. 
+                <br> a UX/UI designer from Atlanta, Georgia</h1>
+                <span> I am currently working as a web content creator for a multitude of companies at once and am currently moving to increase my knowledge in the UX space. In my free time I like to spend <br>time discovering new things. My end goal is to create and design platforms which influence individuals to make a change for the betterment of themselves or others.</span>
+            </div>    
         </div>
-        <div>
-            <h1>Work/Projects</h1>
+
+        <div id="work">
+            <div class="container">
+                    <h1>Work/Projects</h1> 
+                    <div class="column">        
+                    <h3>Element: Weather Mastery App</h3>
+                    <p>Element was designed to be the ultimate weather companion, meticulously crafted allowing users to reclaim more of their precious time to enjoy the great outdoors. Element offers a seamless and intuitive experience for both casual weather enthusiasts and those who rely on accurate forecasts for planning their activities. This project showcases my start to finish process including research, wireframing, testing and an interactive prototype using Figma.</p>
+                    <a href="element.html" class="button">Read More</a>  
+                    <picture>
+                    <source srcset="img/Element/Element_logo.png" media="(max-width:767px)">
+                    <img src="img/Element/Element_logo.png" alt="Element Logo">
+                    </picture>
+                    </div>                 
+
+                
+                    <div class="column">
+                    <h3>Terminal Study</h3>
+                    <p>Terminal Study was a prototype Vocabulary app that was designed to offer users an easy way to access vocabulary information and study those terms using games, flashcards, and more. The design of Terminal study was a simple design focusing on elements of design flow, user experience and UX design. </p>
+                    <picture>
+                    <source srcset="img/Terminalstudy/Terminal_study_logo.png" media="(max-width:767px)">
+                    <img src="img/Terminalstudy/Terminal_study_logo.png" alt="Terminal Study Logo">
+                    </picture>
+                    </div>
+            </div>
         </div>    
-        <div class="container">
-            <div class="row" id="work">
-                <div class="col ">
-                    <picture>
-                        <source srcset="img/Element/Element_logo.png" media="(max-width:767px)">
-                        <img src="img/Element/Element_logo.png" alt="Element Logo">
-                    </picture>
-                    <div style="border: 1px solid #000000; padding: 5px;">
-                        <h3>Element: Weather Mastery App</h3>
-                        <p>Element was designed to be the ultimate weather companion, meticulously crafted allowing users to reclaim more of their precious time to enjoy the great outdoors. Element offers a seamless and intuitive experience for both casual weather enthusiasts and those who rely on accurate forecasts for planning their activities. This project showcases my start to finish process including research, wireframing, testing and an interactive prototype using Figma.</p>
-                        <a href="element.html" class="button">Read More</a>
-                    </div>
-                </div>
-                <div class="col">
-                    <picture>
-                        <source srcset="img/Terminalstudy/Terminal_study_logo.png" media="(max-width:767px)">
-                        <img src="img/Terminalstudy/Terminal_study_logo.png" alt="Terminal Study Logo">
-                    </picture>
-                    <div style="border: 1px solid #000000; padding: 5px;">
-                        <h3>Terminal Study</h3>
-                        <p>Terminal Study was a prototype Vocabulary app that was designed to offer users an easy way to access vocabulary information and study those terms using games, flashcards, and more. The design of Terminal study was a simple design focusing on elements of design flow, user experience and UX design. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </main>
 
-    <footer id="contact" class="container">
-        <div class="row">
-            <div class="col">
-                <h2>Get in Touch</h2>
-                <p>
-                    Do you like my work and want to discuss opportunities? Please get in touch.
-                    Call: <a href="tel:+491234567">+49 1234567</a>. Prefer sending an email?
-                </p>
-                <div>
-                    <a href="mailto:office@careerfoundry.com" class="button">Email</a>
-                </div>
+    <footer id="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p> Do you like my work and want to discuss opportunities? Please get in touch.</p>
+            <div class="row">
+                <a href="mailto:office@careerfoundry.com" class="button">Email Me</a>
             </div>
-            <div class="col social-media-container">
+        </div>
+            
+        <div class="social-media-container">
                 <a href="LINKEDIN-URL" target="_blank">
                     <img src="http://via.placeholder.com/32x32" alt="LinkedIn">
                 </a>
