@@ -16,6 +16,7 @@ header {
 }
 
 #hero {
+    font-family: 'Merriweather', serif;
     background-color: #ffe4c4;
     padding: 20px 0;
     display: inline-block;
