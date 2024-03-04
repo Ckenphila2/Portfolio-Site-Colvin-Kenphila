@@ -3,12 +3,8 @@ header {
   font-family: 'Merriweather', serif;
   font-size: 20px;
   font-weight: 400;
-  margin: 10px 10px 0px 10px;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 0px;
   background-color:#049fbb;
-  text-align: center;
+  text-align: unset;
   box-shadow: 1px 7px 20px rgba(0, 5, 10, 0.7)  ; 
 }
 
@@ -18,9 +14,13 @@ header {
     padding: 20px 0;
     display: inline-block;
     width: 100%;
-    box-shadow: 1px 7px 20px rgba(0, 5, 10, 0.7)  ; 
+    box-shadow: 1px 7px 20px rgba(0, 5, 10, 0.7);
+    text-align: center; 
   }
 
+  #hero span {
+    display: block;
+  }
 
 body {
     font-family: 'Merriweather', serif;
@@ -57,12 +57,12 @@ body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: 0.2s opacity;
     align-items: center;
 }
 
 .button:hover {
-    background-color: #191a1b;
+    opacity: 0.8;
 }
 
 /* Image Styling */
@@ -100,22 +100,23 @@ nav> ul > li >:last-child {
     margin-right: 0;
 }
 
-.container-footer {
+
+footer {
+    text-align: center;
+    margin: auto;
+    width: 100%;
     background-color: #049fbb;
     color: #feeee8;
-    margin: 10px 10px 0px 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 0px;
+    padding: 10px;
     text-align: center;
-    box-shadow: 1px 7px 20px rgba(0, 5, 10, 0.7)  ; 
+    box-shadow: 1px 7px 20px rgba(0, 5, 10, 0.7);
 }
 
 .social-media-container {
     text-align: center;
 }
 
-.row {
+.row1 {
     padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
 }
 
@@ -124,9 +125,12 @@ nav> ul > li >:last-child {
   }
   
   .column {
-    float: left;
     width: 50%;
     padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block; /* Change from float:left to inline-block */
+    vertical-align: top; /* Align columns to the top */
   }
   .row1::after {
     content: "";
@@ -139,62 +143,141 @@ nav> ul > li >:last-child {
     padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
   }
 
+  ul {
+    text-align: center;
+    list-style: none;
+}
+
+  @keyframes color-change {
+    from {fill: #edc655;}
+    to {fill: #f76414;}
+  }
+
+  .sun {
+    animation-duration: 4s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+
+  @keyframes cloud-move {
+    from {transform: translate(0,50px);}
+    to {transform: translate(200px,50px);}
+  }
+
+  .cloud-front {
+    animation-duration: 30s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+
+  @keyframes cloud-move-reverse {
+    from {transform: translate(446px,48px);}
+    to {transform: translate(100px, 48px);}
+  }
+
+  .cloud-back {
+    animation: 34s cloud-move-reverse infinite alternate linear;
+  }
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
-
     header {
-      text-align: unset;
-      padding: 20px 0 13px;
-    }
-  
+        text-align: unset;
+        padding: 20px 0 13px;
+      }
     
     nav {
-      width: auto;
-      float: right;
-      margin-top: 4px;
-    }
-  
-    main {
-      font-size: 18px;
-    }
-  
-    nav > ul > li {
-      display: inline-block;
-    }
-  
-    nav > ul {
-      margin: 1em 0;
+        width: auto;
+        float: right;
+        margin-top: 4px;
     }
 
+    main {
+        font-size: 18px;
+    }
+    
+    #hero span {
+        display: block;
+      }
+    
+    .col-md-4 {
+        width: 40%;
+    }
+    
+    .col-md-6 {
+        width: 60%;
+    }
+    
+    .col-md-5 {
+        width: 50%;
+    }
+    
+    
+    [class*="col-"] {
+        float: left;
+        padding: 10px;
+    }
+    
+    nav > ul > li {
+        display: inline-block;
+    }
+    
+    nav > ul {
+        margin: 1em 0;
+    }
+    
 }
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
+@media only screen and (min-width: 1024px) {
 
-@media only screen and (min-width: 1024px) { header {
-    text-align: unset;
-    padding: 20px 0 13px;
-  }
-
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
-  }
-
-  main {
-    font-size: 18px;
-  }
-
-  nav > ul > li {
-    display: inline-block;
-  }
-
-  .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    header {
+        text-align: unset;
+        padding: 20px 0 13px;
+      }
+    
+    nav {
+        width: auto;
+        float: right;
+        margin-top: 4px;
+    }
+    
+    main {
+        font-size: 18px;
+    }
+    
+    .col-lg-6 {
+        width: 60%;
+    }
+    
+    .col-lg-4 {
+        width: 40%;
+    }
+    
+    .col-lg-5 {
+        width: 50%;
+    }
+    
+    [class*="col-"] {
+        float: left;
+        padding: 10px;
+    }
+    
+    nav > ul > li {
+        display: inline-block;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
