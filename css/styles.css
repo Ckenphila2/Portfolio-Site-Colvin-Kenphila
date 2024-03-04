@@ -1,6 +1,3 @@
-* {
-    box-sizing: border-box;
-  }
 
 header {
   font-family: 'Merriweather', serif;
@@ -39,26 +36,6 @@ body {
 
     h1, h2, h3, h4, h5, h6 {
         font-family: 'Merriweather', serif;
-        line-height: 1.4;
-    }
-    h1 {
-        font-size: 2.75em;
-        font-weight: 700;
-    }
-  
-    h2 {
-        font-size: 2.25em;
-        font-weight: 600;
-    }
-  
-    h3 {
-        font-size: 1.75em;
-        font-weight: 500;
-    }
-    
-    h4 {
-        font-size: 1.35em;
-        font-weight: 400;
     }
 
 .picture {
@@ -141,6 +118,26 @@ nav> ul > li >:last-child {
 .row {
     padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
+  }
+  
+  .divider {
+    padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
+  }
 
 /* ==============================
 Medium devices (640px and larger)
