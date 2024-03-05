@@ -11,7 +11,8 @@ header {
 #hero {
     font-family: 'Merriweather', serif;
     background-color: #ffe4c4;
-    padding: 20px 0;
+    padding: 50px 0;
+    margin: 0px;
     display: inline-block;
     width: 100%;
     box-shadow: 1px 7px 20px rgba(0, 5, 10, 0.7);
@@ -38,12 +39,18 @@ body {
         font-family: 'Merriweather', serif;
     }
 
+
+.container{
+
+padding-top: 50px;
+}
 .picture {
     width: 600px;
     height: 400px
 }
 
 .work{
+    padding: 40px;
     background-color: #ffe4c4;
 }
 
@@ -51,6 +58,7 @@ body {
 .button {
     display: inline-block;
     padding: 20px 20px;
+    margin: 20px;
     background-color: #007afd;
     color: #fff;
     text-decoration: none;
@@ -81,12 +89,13 @@ nav{
 
 
 nav > ul {
-    list-style-type: none;
+    list-style-type:decimal;
     padding: 0;
 }
 
 nav > ul > li {
     display: inline;
+    list-style-type:decimal
 }    
 
 nav > ul > li > a {
@@ -100,6 +109,12 @@ nav> ul > li >:last-child {
     margin-right: 0;
 }
 
+.container-footer {
+    margin: 40px;
+    padding: 10px;
+    
+    
+}
 
 footer {
     text-align: center;
@@ -144,8 +159,8 @@ footer {
   }
 
   ul {
-    text-align: center;
-    list-style: none;
+    list-style:circle;
+    text-align: left;
 }
 
   @keyframes color-change {
@@ -207,15 +222,15 @@ Medium devices (640px and larger)
       }
     
     .col-md-4 {
-        width: 40%;
+        width: 100%;
     }
     
     .col-md-6 {
-        width: 60%;
+        width: 100%;
     }
     
     .col-md-5 {
-        width: 50%;
+        width: 100%;
     }
     
     
@@ -231,7 +246,11 @@ Medium devices (640px and larger)
     nav > ul {
         margin: 1em 0;
     }
-    
+
+    /* Set container width to 100% */
+    .container {
+        width: 100%;
+    }
 }
 
 /* ==============================
@@ -255,15 +274,15 @@ Large devices (1024px or larger)
     }
     
     .col-lg-6 {
-        width: 60%;
+        width: 100%;
     }
     
     .col-lg-4 {
-        width: 40%;
+        width: 100%;
     }
     
     .col-lg-5 {
-        width: 50%;
+        width: 100%;
     }
     
     [class*="col-"] {
