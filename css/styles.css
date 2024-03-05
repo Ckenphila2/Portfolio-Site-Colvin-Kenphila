@@ -205,7 +205,7 @@ Medium devices (640px and larger)
     header {
         text-align: unset;
         padding: 20px 0 13px;
-      }
+    }
     
     nav {
         width: auto;
@@ -219,20 +219,13 @@ Medium devices (640px and larger)
     
     #hero span {
         display: block;
-      }
-    
-    .col-md-4 {
-        width: 100%;
     }
     
-    .col-md-6 {
-        width: 100%;
-    }
-    
+    .col-md-4,
+    .col-md-6,
     .col-md-5 {
         width: 100%;
     }
-    
     
     [class*="col-"] {
         float: left;
@@ -246,8 +239,7 @@ Medium devices (640px and larger)
     nav > ul {
         margin: 1em 0;
     }
-
-    /* Set container width to 100% */
+    
     .container {
         width: 100%;
     }
@@ -257,11 +249,12 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-
-    header {
+    header,
+    nav,
+    main {
         text-align: unset;
         padding: 20px 0 13px;
-      }
+    }
     
     nav {
         width: auto;
@@ -273,14 +266,8 @@ Large devices (1024px or larger)
         font-size: 18px;
     }
     
-    .col-lg-6 {
-        width: 100%;
-    }
-    
-    .col-lg-4 {
-        width: 100%;
-    }
-    
+    .col-lg-6,
+    .col-lg-4,
     .col-lg-5 {
         width: 100%;
     }
@@ -295,8 +282,10 @@ Large devices (1024px or larger)
     }
     
     .container {
+        width: 100%;
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
     }
 }
+
