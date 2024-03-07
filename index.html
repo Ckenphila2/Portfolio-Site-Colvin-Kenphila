@@ -13,27 +13,33 @@
         <meta name="description" content="Main page - index page.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Colvin Kenphila Home</title>
+        <script src="https://kit.fontawesome.com/987e234ba4.js" crossorigin="anonymous"></script>
+
     </head>
 
     <body>
-        <header>
-            <div class="container">
-                <a class="logo" href="img/logo.png"><img src="img/logo.png" class="logo" alt="Colvin Kenphila Logo" style="width: 100px;"></a>
-                <nav>
-                    <ul class="navigation">
-                        <li><a href="index.html">Work</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>        
-                </nav>
+        <header id="navigation">
+            <div class="container clear">
+                <div class="navtoggle" id="myNavtoggle">
+                <img class="logo" img src="img/logo.png" alt="Colvin Kenphila Logo" style="width: 100px;"></a>                
+                    <div class="navigation"> 
+                        <nav>
+                            <ul class="navigation">
+                                <li><a href="index.html">Work</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="#contact">Contact</a>
+                                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </div>
         </header>
         <main>
             <div id="hero">
                 <div class="container" style="text-align: center;">
-                    <h1><span>My name is Colvin. 
-                    <br> a UX/UI designer from Atlanta, Georgia</h1></span>
-                    <span> I am currently working as a web content creator for a multitude of companies at once and am currently moving to increase my knowledge in the UX space. In my free time I like to spend time discovering new things. My end goal is to create and design platforms which influence individuals to make a change for the betterment of themselves or others.</span>
+                    <h1><span>My name is Colvin.</h1>
+                    <span>a UX/UI designer from Atlanta, Georgia I am currently working as a web content creator for a multitude of companies at once and am currently moving to increase my knowledge in the UX space. In my free time I like to spend time discovering new things. My end goal is to create and design platforms which influence individuals to make a change for the betterment of themselves or others.</span>
                 </div>    
             </div>
 
@@ -683,7 +689,7 @@
         </main>
 
         <footer id="contact">
-            <div class="container-footer">
+            <div>
                 <h2>Get in Touch</h2>
                 <p> Do you like my work and want to discuss opportunities? Please get in touch.</p>
                 <div class="row">
@@ -704,6 +710,7 @@
                 </div>
             </div>
         </footer>
+    <script src="js/JQurey 3.7.1.min.js"></script>
     <script src="js/scripts.js"></script>
     </body>
 </html>
