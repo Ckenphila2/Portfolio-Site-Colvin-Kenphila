@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 
 header {
   font-family: 'Merriweather', serif;
@@ -209,27 +212,34 @@ Medium devices (640px and larger)
     
     nav {
         width: auto;
-        float: right;
-        margin-top: 4px;
     }
 
     main {
-        font-size: 18px;
+        font-size: 16px;
     }
     
     #hero span {
-        display: block;
+        display: inline;
+    }
+
+    .column {
+        width: 50%;
     }
     
     .col-md-4,
     .col-md-6,
     .col-md-5 {
-        width: 100%;
+        width: 50%;
     }
     
     [class*="col-"] {
         float: left;
         padding: 10px;
+    }
+
+    .row1::after {
+        content: "";
+        display: table;
     }
     
     nav > ul > li {
@@ -252,14 +262,11 @@ Large devices (1024px or larger)
     header,
     nav,
     main {
-        text-align: unset;
         padding: 20px 0 13px;
     }
     
     nav {
         width: auto;
-        float: right;
-        margin-top: 4px;
     }
     
     main {
@@ -269,7 +276,11 @@ Large devices (1024px or larger)
     .col-lg-6,
     .col-lg-4,
     .col-lg-5 {
-        width: 100%;
+        width: 50%;
+    }
+
+    .column {
+        width: 50%;
     }
     
     [class*="col-"] {
