@@ -249,6 +249,10 @@
   .navtoggle, .navtoggle.responsive {
     position: relative;
   }
+
+  .navtoggle.responsive li  {
+    display: block;
+  }
   
   .navtoggle li .icon {
     position: absolute;
@@ -257,6 +261,19 @@
     font-size: 30px;
     color: #d1cbcb;
     padding-right: 0;
+  }
+
+  .navtoggle.responsive nav {
+    padding: 24px 0 0;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,127,80,0.5);
+  }
+  
+  .navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
   }
   
   
