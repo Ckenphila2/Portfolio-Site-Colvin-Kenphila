@@ -47,6 +47,13 @@
       width: 100%;
     }
 
+    .el-img {
+      /* width: 500px;  */
+      height: auto; 
+      display: block; 
+      margin: 0 auto;
+    }
+
   
   .row1::after {
     content: "";
