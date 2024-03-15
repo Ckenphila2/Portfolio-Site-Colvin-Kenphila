@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <meta name="author" content="Colvin Kenphila">
-    <meta name="description" content="about Colvin - about page.">
-    <title>Colvin Kenphila Home</title>
-    <script src="https://kit.fontawesome.com/987e234ba4.js" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <meta name="author" content="Colvin Kenphila">
+        <meta name="description" content="Main page - index page.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Colvin Kenphila Home</title>
+        <script src="https://kit.fontawesome.com/987e234ba4.js" crossorigin="anonymous"></script>
+    </head>
 
-<body>
-    <header id="navigation">
-        <div class="container clear">
-            <div class="navtoggle" id="myNavtoggle">
-                <img class="logo" src="img/logo.png" alt="Colvin_Kenphila_Logo" style="width: 100px;">                
-                <div class="navigation"> 
-                    <nav>
-                        <ul class="navigation">
-                            <li><a href="index.html">Work</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
-                        </ul>
-                    </nav>
+    <body>
+        <header id="navigation">
+            <!-- <div class="container-header"> -->
+                <div class="navtoggle" id="myNavtoggle">               
+                    <div class="navigation"> 
+                        <a href="index.html">
+                            <img class="logo" src="img/logo.png" alt="Colvin_Kenphila_Logo" style="width: 100px;"></a>      
+                        <nav class="navBox">
+                            <ul>
+                            <!-- class="navigation" -->
+                            
+                                <li><a href="index.html">Work</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </header>
+            <!-- </div> -->
+        </header>
 
     <main>
         <div id="hero">
             <div class="container" style="text-align: center;">
+                <h1>Hello, My name is Colvin</h1>
                 <picture>
-                    <source srcset="img/Profile_Picture.jpg" media="(max-width:250px)">
-                    <img src="img/Profile_Picture.jpg" alt="Colvin Kenphila">
+                    <img src="img/Profile_Picture.jpg" style="max-width:600px; min-width: 50px;">
                 </picture>
-                <h2>Hello, My name is Colvin</h2>
-                        <h3>I am a UX/UI designer from Atlanta, Georgia. I am currently working as a web content creator for multiple companies simultaneously and am actively expanding my knowledge in the UX field. In my free time, I enjoy discovering new things. My ultimate goal is to create and design platforms that inspire individuals to make positive changes for themselves or others.</h3>
+
+                        <p>I am a UX/UI designer from Atlanta, Georgia. I am currently working as a web content creator for multiple companies simultaneously and am actively expanding my knowledge in the UX field. In my free time, I enjoy discovering new things. My ultimate goal is to create and design platforms that inspire individuals to make positive changes for themselves or others.</p>
 
                 <a href="files/Colvin_Kenphila_Resume.pdf" target="_blank" class="button">View CV</a>            
-            </div>    
-            <div class="container" style="text-align: center;">
+            </div> 
+            
+        </div>
+            <div class="container-skills" style="text-align: center;">
                 <h2>Skills And Tools</h2>
                     <h3 style="text-align: center;"> Relevant Skills</h3>
                             <ul style="text-align: left;">
@@ -64,30 +69,29 @@
                                 <li>Visual Studio Code</li>
                             </ul>       
             </div>
-        </div>
-
+    </main>    
         <footer id="contact">
-            <div class="container-footer">
+            <div>
                 <h2>Get in Touch</h2>
                 <p> Do you like my work and want to discuss opportunities? Please get in touch.</p>
                 <div class="row">
-                    <a href="mailto:office@careerfoundry.com" class="button">Email Me</a>
+                    <a href="mailto:colvinkenphila2@gmail.com" class="button">Email Me</a>
                 </div>
             </div>
                 
             <div class="social-media-container">
-                <a href="https://www.linkedin.com/in/colvinkenphila/" target="_blank">
-                    <img src="img/SocialLogos/Linkedin.png" style="width: 150px;" alt="LinkedIn">
-                </a>
-                <a href="https://twitter.com/?lang=en" target="_blank">
-                    <img src="img/SocialLogos/TwitterXLogoPNGImage.png" style="width: 150px;"  alt="Twitter">
-                </a>
-                <a href="https://www.instagram.com/">
-                    <img src="img/SocialLogos/Instagram.png" style="width: 150px;" alt="Instgram">
-                </a>
-        </div>
+                    <a href="https://www.linkedin.com/in/colvinkenphila/" target="_blank">
+                        <img src="img/SocialLogos/Linkedin.png" style="width: 75px;" alt="LinkedIn">
+                    </a>
+                    <a href="https://twitter.com/?lang=en" target="_blank">
+                        <img src="img/SocialLogos/TwitterXLogoPNGImage.png" style="width: 75px;"  alt="Twitter">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="img/SocialLogos/Instagram.png" style="width: 75px;" alt="Instgram">
+                    </a>
+            </div>
+
         </footer>
-    </main>
     <script src="js/JQurey_3.7.1.min.js"></script>
     <script src="js/scripts.js"></script>
     </body>

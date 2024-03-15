@@ -17,33 +17,40 @@
 
     <body>
         <header id="navigation">
-            <div class="container clear">
-                <div class="navtoggle" id="myNavtoggle">
-                <img class="logo" src="img/logo.png" alt="Colvin_Kenphila_Logo" style="width: 100px;">                
+            <!-- <div class="container-header"> -->
+                <div class="navtoggle" id="myNavtoggle">               
                     <div class="navigation"> 
+                        <a href="index.html">
+                            <img class="logo" src="img/logo.png" alt="Colvin_Kenphila_Logo" style="width: 100px;"></a>      
                         <nav>
-                            <ul class="navigation">
+                            <ul>
+                            <!-- class="navigation" -->
+                            
                                 <li><a href="index.html">Work</a></li>
                                 <li><a href="about.html">About</a></li>
                                 <li><a href="#contact">Contact</a></li>
-                                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
+                                <li><a href="javascript:void(0);" class="icon" onclick="toggleIcon()">
+                                        <i id="menuIcon" class="fa-solid fa-bars"></i>
+                                    </a>
+                                </li>
+
                             </ul>
                         </nav>
                     </div>
                 </div>
-            </div>
+            <!-- </div> -->
         </header>
         <main>
             <div id="hero">
                 <div class="container" style="text-align: center;">
                     <h1>My name is Colvin.</h1>
-                    <span>a UX/UI designer from Atlanta, Georgia I am currently working as a web content creator for a multitude of companies at once and am currently moving to increase my knowledge in the UX space. In my free time I like to spend time discovering new things. My end goal is to create and design platforms which influence individuals to make a change for the betterment of themselves or others.</span>
+                    <p>a UX/UI designer from Atlanta, Georgia I am currently working as a web content creator for a multitude of companies at once and am currently moving to increase my knowledge in the UX space. In my free time I like to spend time discovering new things. My end goal is to create and design platforms which influence individuals to make a change for the betterment of themselves or others.</p>
                 </div>    
             </div>
 
             <div id="work">
-                <div class="container">
-                        <h1 style="text-align: center;">Work/Projects</h1> 
+                <div class="workcontainer">
+                        <h2 style="text-align: center;">Work/Projects</h2> 
                         <div class="row1">
                             <div class="col-md-6 col-lg-5">
                                 <picture>
@@ -691,19 +698,19 @@
                 <h2>Get in Touch</h2>
                 <p> Do you like my work and want to discuss opportunities? Please get in touch.</p>
                 <div class="row">
-                    <a href="mailto:office@careerfoundry.com" class="button">Email Me</a>
+                    <a href="mailto:colvinkenphila2@gmail.com" class="button">Email Me</a>
                 </div>
             </div>
                 
             <div class="social-media-container">
                     <a href="https://www.linkedin.com/in/colvinkenphila/" target="_blank">
-                        <img src="img/SocialLogos/Linkedin.png" style="width: 150px;" alt="LinkedIn">
+                        <img src="img/SocialLogos/Linkedin.png" style="width: 75px;" alt="LinkedIn">
                     </a>
                     <a href="https://twitter.com/?lang=en" target="_blank">
-                        <img src="img/SocialLogos/TwitterXLogoPNGImage.png" style="width: 150px;"  alt="Twitter">
+                        <img src="img/SocialLogos/TwitterXLogoPNGImage.png" style="width: 75px;"  alt="Twitter">
                     </a>
-                    <a href="https://www.instagram.com/">
-                        <img src="img/SocialLogos/Instagram.png" style="width: 150px;" alt="Instgram">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="img/SocialLogos/Instagram.png" style="width: 75px;" alt="Instgram">
                     </a>
             </div>
 
