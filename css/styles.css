@@ -346,6 +346,9 @@ nav > ul > li > a:active {
   padding: 0 0 10px;
 }
 
+.navigation {
+  display: auto;
+}
 
 main {
 width: 1200px;
