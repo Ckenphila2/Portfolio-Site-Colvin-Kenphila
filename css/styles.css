@@ -19,12 +19,30 @@ body {
     color: #303030;
   }
 
+  .workcontainer2 {
+    display: flex;
+    justify-content: space-between; /* Spacing between elements */
+    align-items: center; /* Vertically center content */
+    padding: 20px;
+  }
+
+  .about-picture {
+    display: flex;
+    text-align: right;
+  }
+
+  .textanimation{
+    text-align: right;
+  }
+
   .row1 {
-    max-width: 1200px;
+    width: 1200px;
+    text-align:center;
+    display: inline;
   }
 
   .work{
-    max-width: 1200px;
+    width: 1200px;
   }
 
   .workcontainer{
@@ -32,7 +50,6 @@ body {
     padding-top: 56px;
     padding-left: 50px;
     padding-right: 50px;
-    max-width: 1200px;
     margin: 0 auto;
   }
   
@@ -73,16 +90,20 @@ body {
 
 
   .container-skills {
-    max-width: 1200px;
+    width: 1200px;
     margin: 50px auto;
     padding: 0 20px;
+  }
+
+  .textanimation{
+    float: right;
   }
 
 
 
 .skills-list, .tools-list {
   text-align: center;
-  max-width: 2000px;
+  width: 1200px;
 }
 
 .row1::after {
@@ -106,8 +127,8 @@ body {
   }
 
   .animation {
-    width: 100%;
-    max-width: 100%;
+    width: 50%;
+    max-width: 50%;
     height: auto;
   }
 
@@ -228,7 +249,6 @@ body {
 
 .container {
   /* padding: 0 15px; */
-  max-width: 1200px;
   width: 1200px;
   margin: 0px auto;
   padding-top: 56px;
@@ -266,6 +286,7 @@ nav > ul {
   margin: 0;
   margin: 0;
 }
+
 
 
 
@@ -327,8 +348,9 @@ nav > ul > li > a:active {
 
 
 main {
-max-width: 1200px;
+width: 1200px;
 margin: 0 auto;
+align-items: center;
 }
 
 #hero {
@@ -347,6 +369,10 @@ margin: 0 auto;
     color: #feeee8;
     padding: 16px 0;
     text-align: center;
+    display: inline-block;
+    width:100vw;
+    min-width: 1200px;
+    top: 0;
 }
 
 #hero span {
@@ -372,8 +398,8 @@ Medium devices (641px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
-
   
+
   nav {
     width: auto;
     float: right;
