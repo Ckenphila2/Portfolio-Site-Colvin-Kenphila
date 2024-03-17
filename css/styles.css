@@ -43,6 +43,8 @@ body {
 
   .work{
     width: 1200px;
+    text-align:center;
+    display: inline;
   }
 
   .workcontainer{
@@ -93,6 +95,10 @@ body {
     width: 1200px;
     margin: 50px auto;
     padding: 0 20px;
+    text-align:center;
+    display: inline;
+    
+
   }
 
   .textanimation{
@@ -364,6 +370,7 @@ align-items: center;
   width: 1200px;
   box-shadow: 1px 7px 20px rgba(0, 5, 10, 0.7);
   text-align: center; 
+
 }
 
 
@@ -478,7 +485,8 @@ Large devices (1024px or larger)
   }
 
   .hero {
-    width: 100%;
+    width: 100px;
+    margin:  0 auto;
       }
 
   .col-lg-6 {
