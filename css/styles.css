@@ -357,7 +357,7 @@ nav > ul > li > a:active {
 }
 
 main {
-width: 1200px;
+/*width: 1200px;*/
 margin: 0 auto;
 align-items: center;
 }
