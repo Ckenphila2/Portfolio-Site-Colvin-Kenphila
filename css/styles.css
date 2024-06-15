@@ -16,7 +16,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
-    color: #303030;
+    color: #1e1e1e;
   }
 
   .workcontainer2 {
@@ -301,11 +301,11 @@ nav > ul > li > a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
-  color: #c7d0d4;
+  color: #232425;
 }
 
 nav > ul > li > a:visited {
-  color: #c4c4c4;
+  color: #232425;
 }
 
 nav > ul > li > a:hover,
@@ -335,7 +335,7 @@ nav > ul > li > a:active {
   right: 0;
   top: 30px;
   font-size: 30px;
-  color: #d1cbcb;
+  color:#232425;
   padding-right: 20px;
 }
 
