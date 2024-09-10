@@ -92,11 +92,16 @@ body {
 
 
   .container-skills {
+    background-color: #ffe4c4;
+    border: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 1200px;
-    margin: 50px auto;
-    padding: 0 20px;
-    text-align:center;
-    display: inline;
+    box-shadow: 1px 7px 20px rgba(0, 5, 10, 0.7);
+    text-align: center; 
     
 
   }
