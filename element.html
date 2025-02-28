@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <meta name="author" content="Colvin Kenphila">
+        <meta name="description" content="Element Project - Element page.">
+        <title>Colvin Kenphila Home</title>
+        <script src="https://kit.fontawesome.com/987e234ba4.js" crossorigin="anonymous"></script>
+    </head>
+    <body style="background-image: url(img/Background/EBG.jpg); background-attachment: fixed;">
+        
+        <header id="navigation" style="background-image: url(img/Background/NAVBG2.png);">
+            <!-- <div class="container-header"> -->
+                <div class="navtoggle" id="myNavtoggle">               
+                    <div class="navigation"> 
+                        <a href="index.html">
+                            <img class="logo" src="img/TS/logo.png" alt="Colvin_Kenphila_Logo" style="width: 100px;"></a>      
+                        <nav>
+                            <ul>
+                            <!-- class="navigation" -->
+                            
+                                <li><a href="index.html">Work</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="javascript:void(0);" class="icon" onclick="toggleIcon()">
+                                        <i id="menuIcon" class="fa-solid fa-bars"></i>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            <!-- </div> -->
+        </header>
+
+
+        <main>
+            <div id="hero" style="color: #0e0863;">
+                <div class="container" style="text-align: center; color: #0e0863;">
+                        <picture style="text-align: center;">
+                            <img class="el-img" src="img/Element/Element_logo.png" alt="Element Logo" style="max-width:500px;min-width: 50px;">
+                        </picture>
+                        <h2 style="text-align: center;" >Element: Weather Mastery App</h2>
+                        <p>Element was designed to be the ultimate weather companion, meticulously crafted allowing users to reclaim more of their precious time to enjoy the great outdoors. Element offers a seamless and intuitive experience for both casual weather enthusiasts and those who rely on accurate forecasts for planning their activities. This project showcases my start to finish process including research, wireframing, testing and an interactive prototype using Figma.</p>
+                </div>    
+            </div>
+            <div id="work"> 
+                <div class="container" style="text-align: center"> 
+                    <div class="row1">
+                        <h3 style="text-align: center; color: whitesmoke;">Research and Hypothesis</h3>
+                            <p style="color: whitesmoke;">
+                                Hypothesis: I believe users who use weather information are struggling with over complete weather data and inaccurate information. Users are also finding it a challenge to customize what they want in a weather app so that they can spend more time enjoying their sport or hobby.<br>
+                            </p>
+                            <p style="color: whitesmoke;" >   
+                                Direct Competition: Windy.App, Chime: NOAA Weather and Weather Channel
+                            </p>    
+                            <p style="color: whitesmoke;">
+                                Business Requirements:
+                            </p>    
+                                <ul style="text-align: left; color: whitesmoke;">
+                                    <li>Identified business goals, target the right users, and outlined requirements for development.</li> 
+                                    <li>User Surveys.</li> 
+                                    <li>Ask Questions pertaining to users experience with current weather apps that they are using and the structing of how often they are looking at their app. In addition, users have been asked what would make the apps they are using have a better experience.</li>
+                                </ul>
+                    </div> 
+                    <div>
+                        <h3 style="color: whitesmoke;">User Personas</h3>
+                        <p style="color: whitesmoke;">The creation of user persona allows me to create a personalized model of what user would need with a weather app like Element. Referencing key ideas gained from these personas allows me to refine Element into an app that achieves the users main goals first.</p> 
+
+                                <img src="img/Element/User_Persona_1.png" alt="User Persona Anthony" style="max-width:767px;min-width: 50px;">  
+                                <img src="img/Element/User_Persona_2.jpg" alt="User Persona Anthony" style="max-width:767px; min-width: 50px;">
+
+                    </div>    
+            </div>   
+
+            
+            <div id="workcontainer">
+                <div class="container" style="text-align: center;">   
+                    <div class="row1">
+                        <h3 style="text-align: center; color: whitesmoke;">User Flow</h3>
+                            <p style="color: whitesmoke;">
+                                User flows allow me to see how users would react and move to find the thing that they are looking for on the app and how difficult the users found it to be. Task flows would include:
+                            </p>   
+                            <ul style="text-align: left; color: whitesmoke;">
+                                <li>Launch app</li>
+                                <li>Sign in/create new account</li>
+                                <li>Pick which hompage features to display</li>
+                                <li>Save/confirm options</li>
+                                <li>Exit app</li>
+                            </ul>
+                        <div style="text-align: center; background-color: whitesmoke;">
+                            <picture style="display: inline-block;" >
+                                <source srcset="img/Element/Userflow.png" media="(max-width:767px)">
+                                <img src="img/Element/Userflow.png" alt="Userflow" style="width:80%;">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" style="text-align: center;">       
+                    <div class="row1">
+                        <h3 style="text-align: center; color: whitesmoke;">Low-fidelity wireframes</h3>
+                            <p style="color: whitesmoke;">
+                            The first Drawn of ELEMENT were mainly created to portray the features of the app. How users will access settings and the features and how Element will look all began at this stage.
+                            </p>
+                            <picture style="display: inline-block;">
+                                <source srcset="img/Element/lowfi_1.png" media="(max-width:767px)">
+                                <img src="img/Element/lowfi_1.png" alt="Low-fidelity 1" style="width: 250px;">
+                            </picture>
+                            <picture style="display: inline-block;">
+                                <source srcset="img/Element/lowfi_2.png" media="(max-width:767px)">
+                                <img src="img/Element/lowfi_2.png" alt="Low-fidelity 2" style="width: 250px;">
+                            </picture>
+                            <picture style="display: inline-block;">
+                                <source srcset="img/Element/lowfi_3.png" media="(max-width:767px)">
+                                <img src="img/Element/lowfi_3.png" alt="Low-fidelity 3" style="width: 250px;">
+                            </picture>
+                            <picture>
+                                <source srcset="img/Element/lowfi_4.png" media="(max-width:767px)">
+                                <img src="img/Element/lowfi_4.png" alt="Low-fidelity 4" style="width: 250px;">
+                            </picture>
+                    </div>        
+                </div>
+                <div class="container" style="text-align: center;">       
+                    <div class="row1">
+                        <h3 style="text-align: center; color: whitesmoke;">Mid-fidelity wireframes</h3>
+                            <p style="color: whitesmoke;">
+                            Using Figma, I designed my first sketches into low-fidelity wireframes. An interactive prototype was created from the mid-fidelity wireframes.
+                            </p>
+                                <picture>
+                                <img src="img/Element/Mid_Fel_1.png" style="max-width:400px; min-width: 50px;">
+                                <img src="img/Element/Mid_Fel_2.png" style="max-width:400px; min-width: 50px;">
+                                </picture>
+                    </div>
+                </div>
+                <div class="container" style="text-align: center;">       
+                    <div class="row1">
+                        <h3 style="text-align: center; color: whitesmoke;">Usability Testing</h3>
+                        <p style="color: whitesmoke;">
+                            Data gather from usability testing has led to the following:
+                        </p>
+                        <ul style="text-align: left; color: whitesmoke;">
+                            <li>Testers found some features redundant and unnecessary such as adding a personal picture to the signup portion. They found it to be causing a choke point.</li>
+                            <li>Testers were pleased with the ease of onboarding, to them it was quick and easy to understand.</li>
+                            <li>Testers were please with accessing and adding forecast data to the homepage and navigation to the page with ease.</li>
+                            <li>Tester really enjoyed how simple the design is. noted: “As someone with elderly parents who struggle to navigate some sites, I like how this app is easily accessible to all demographic.”</li>
+                        </ul>
+                    </div>   
+                </div>
+                <div class="container" style="text-align: center;">       
+                    <div class="row1">
+                        <h3 style="text-align: center; color: whitesmoke;">Color and Typography</h3>
+                            <ul style="text-align: left; color: whitesmoke;">
+                                <li>Option 1: Typography, Abhaya Libre Medium, Stylistic design while emphasizing a sense of professionalism. Font has flair and is eye catching when squinting. Easy to read.</li>
+                                <li>Option 2: Typography, Amasis MT Pro Light, Font is big and easy to read. A lighter style design with clean letters</li>
+                            </ul>
+                
+                            <picture style="width: 150px; text-align: center;">
+                                <source srcset="img/Element/Color_1877f2.png" media="(max-width: 150px)">
+                                <img src="img/Element/Color_1877f2.png" alt="Mid-fidelity 2" style="width: 150px; text-align: center;">
+                            </picture>
+                            <p style="color: whitesmoke;">
+                                #1877F2: Used as the main color throughout Element. This color is used alongside white to highlight important elements such as buttons, search bars, and slide bars.
+                            </p>    
+                    </div>
+                </div>
+                <div class="container" style="text-align: center;">       
+                    <div class="row1">
+                        <h3 style="text-align: center; color: whitesmoke;">High-Fidelity Design and Prototype</h3>
+                        <p style="color: whitesmoke;">
+                            Gathering more data from testing initial wireframes assisted me in refining the final design of Element and final the prototype for final testing.
+                        </p>
+                        <picture>
+                            <source srcset="img/Element/Final_prototype.png" media="(max-width:767px)">
+                            <img src="img/Element/Final_prototype.png" alt="Final_prototype">
+                        </picture>
+                        <a href="https://www.figma.com/proto/V6gTrXxuYlcyAdTihL5inx/Element-Weather?type=design&node-id=75-874&t=DACNrePvssmQfZvM-1&scaling=min-zoom&page-id=75%3A873&starting-point-node-id=75%3A874&mode=design" class="button">Click here see Element prototype</a>
+                    </div>
+                </div>
+            </div>        
+        </div>
+        </main>
+        <footer id="contact">
+            <div>
+                <h2>Get in Touch</h2>
+                <p> Do you like my work and want to discuss opportunities? Please get in touch.</p>
+                <div class="row">
+                    <a href="mailto:colvinkenphila2@gmail.com" class="button">Email Me</a>
+                </div>
+            </div>
+                
+            <div class="social-media-container">
+                    <a href="https://www.linkedin.com/in/colvinkenphila/" target="_blank">
+                        <img src="img/SocialLogos/Linkedin.png" style="width: 75px;" alt="LinkedIn">
+                    </a>
+            </div>
+
+        </footer>
+        <script src="js/JQurey_3.7.1.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

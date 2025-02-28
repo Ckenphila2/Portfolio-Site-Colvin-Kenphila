@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <meta name="author" content="Colvin Kenphila">
+        <meta name="description" content="Main page - index page.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Colvin Kenphila Home</title>
+        <script src="https://kit.fontawesome.com/987e234ba4.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body style="background-image: url(img/Background/Backgroundread.jpg); background-attachment: fixed;">
+        
+        <header id="navigation" style="background-image: url(img/Background/NAVBG2.png);">
+            <!-- <div class="container-header"> -->
+                <div class="navtoggle" id="myNavtoggle">               
+                    <div class="navigation"> 
+                        <a href="index.html">
+                            <img class="logo" src="img/TS/logo.png" alt="Colvin_Kenphila_Logo" style="width: 100px;"></a>      
+                        <nav>
+                            <ul>
+                            <!-- class="navigation" -->
+                            
+                                <li><a href="index.html">Work</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="javascript:void(0);" class="icon" onclick="toggleIcon()">
+                                        <i id="menuIcon" class="fa-solid fa-bars"></i>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            <!-- </div> -->
+        </header>
+        <main>
+            <div id="hero">
+                <div class="container" style="text-align: center;">
+                    <h1>My name is Colvin Kenphila.</h1>
+                    <h2>a UX/UI designer from Atlanta, Georgia</h2>
+                    <p>I am a web content creator for a multitude of companies and moving deeper into the UX design space. My passion is to design platforms that empower people in the community to create a positive impact in all aspects of their professional and personal lives.</p>
+                </div>    
+            </div>
+
+            <div id="work">
+                <div class="container">
+                        <h2 style="text-align: center;">Work/Projects</h2> 
+                        <div class="row1">
+                            <div class="col-md-6 col-lg-5">
+                                <picture>
+                                    <source srcset="img/Element/Element_logo.png" media="(max-width:767px)">
+                                    <img src="img/CSP/Element_Logo1.png" alt="Element Logo">
+                                </picture>
+                            </div>
+                            <div class="col-md-4 col-lg-5">
+                                <h3>Element: Weather Mastery App</h3>
+                                    <p>Element was designed to be the ultimate weather companion, meticulously crafted allowing users to reclaim more of their precious time to enjoy the great outdoors. Element offers a seamless and intuitive experience for both casual weather enthusiasts and those who rely on accurate forecasts for planning their activities.</p>
+                                    <a href="https://www.figma.com/proto/V6gTrXxuYlcyAdTihL5inx/Element-Weather?page-id=0%3A1&node-id=1-184&node-type=frame&viewport=2043%2C806%2C1&t=mzmYdOEt98UJ0AYa-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A184" class="button">Element Design</a>  
+                            </div>
+                        </div>
+                </div>                         
+            </div>
+            <div id="workcontainer">
+                <div class="container">    
+                        <div class="row1">
+                            <div class="col-md-6 col-lg-5">
+                                <picture>
+                                    <img src="img/CSP/Logo-Design-1-PNG.png" alt="CSP Logo" media="(max-width:767px)" style="background-color: black;">
+                                </picture>
+                            </div>
+                            <div class="col-md-4 col-lg-5">
+                            <h3>CSP: Conversation Starter Pack</h3>
+                            <p>CSP is designed to build relationships with friends and family and provoke deeper conversations for a better connection. CSP was designed for a small startup company looking to expand into more friendship building opportunities. </p>
+                            <a href="https://www.figma.com/proto/mmSyWt797Ay9LwNdSypiWC/CSP%3A-Conversation-Starter-Pack?page-id=0%3A1&node-id=1-2&node-type=canvas&viewport=269%2C387%2C0.59&t=XVeVPkQKmurEN32s-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2" class="button">CSP Design</a>  
+                            </div>
+                        </div>
+                </div>
+            </div>        
+        </main>
+
+        <footer id="contact">
+            <div>
+                <h2>Get in Touch</h2>
+                <p> Do you like my work and want to discuss opportunities? Please get in touch.</p>
+                <div class="row">
+                    <a href="mailto:colvinkenphila2@gmail.com" class="button">Email Me</a>
+                </div>
+            </div>
+                
+            <div class="social-media-container">
+                    <a href="https://www.linkedin.com/in/colvinkenphila/" target="_blank">
+                        <img src="img/SocialLogos/Linkedin.png" style="width: 75px;" alt="LinkedIn">
+                    </a>
+            </div>
+
+        </footer>
+    <script src="js/JQurey_3.7.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    </body>
+</html>
