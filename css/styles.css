@@ -361,6 +361,10 @@ Medium devices (641px and larger)
     margin-top: 20px;
   }
 
+  .col-md-2 {
+    width: 40%;
+  }
+
   .col-md-4 {
     width: 40%;
   }
