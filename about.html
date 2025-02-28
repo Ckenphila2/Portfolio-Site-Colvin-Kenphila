@@ -15,21 +15,25 @@
         <script src="https://kit.fontawesome.com/987e234ba4.js" crossorigin="anonymous"></script>
     </head>
 
-    <body>
-        <header id="navigation">
+    <body style="background-image: url(img/Background/Backgroundread.jpg);">
+        <header id="navigation" style="background-image: url(img/Background/NAVBG2.png);">
             <!-- <div class="container-header"> -->
                 <div class="navtoggle" id="myNavtoggle">               
                     <div class="navigation"> 
                         <a href="index.html">
-                            <img class="logo" src="img/logo.png" alt="Colvin_Kenphila_Logo" style="width: 100px;"></a>      
-                        <nav class="navBox">
+                            <img class="logo" src="img/TS/logo.png" alt="Colvin_Kenphila_Logo" style="width: 100px;"></a>      
+                        <nav>
                             <ul>
                             <!-- class="navigation" -->
                             
                                 <li><a href="index.html">Work</a></li>
                                 <li><a href="about.html">About</a></li>
                                 <li><a href="#contact">Contact</a></li>
-                                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
+                                <li><a href="javascript:void(0);" class="icon" onclick="toggleIcon()">
+                                        <i id="menuIcon" class="fa-solid fa-bars"></i>
+                                    </a>
+                                </li>
+
                             </ul>
                         </nav>
                     </div>
@@ -40,21 +44,22 @@
     <main>
         <div id="hero">
             <div class="container" style="text-align: center;">
-                <h1>Hello, My name is Colvin</h1>
+                <h1 style="color:#0e0863;">Hello, My name is Colvin</h1>
                 <picture>
                     <img src="img/Profile_Picture.jpg" style="max-width:600px; min-width: 50px;">
                 </picture>
 
-                        <p>I am a UX/UI designer from Atlanta, Georgia. I am currently working as a web content creator for multiple companies simultaneously and am actively expanding my knowledge in the UX field. In my free time, I enjoy discovering new things. My ultimate goal is to create and design platforms that inspire individuals to make positive changes for themselves or others.</p>
+                        <h2 style="color:#0e0863;">I am a UX/UI designer from Atlanta, Georgia.</h2> 
+                        <p>I am currently working as a web content creator for multiple companies simultaneously and am actively expanding my knowledge in the UX field. In my free time, I enjoy discovering new things. My ultimate goal is to create and design platforms that inspire individuals to make positive changes for themselves or others.</p>
 
-                <a href="files/Colvin_Kenphila_Resume.pdf" target="_blank" class="button">View CV</a>            
+                <a href="files/Colvin-Kenphila-UX Designer.pdf" target="_blank" class="button">View CV</a>            
             </div> 
             
         </div>
             <div class="container-skills" style="text-align: center;">
                 <h2>Skills And Tools</h2>
                     <h3 style="text-align: center;"> Relevant Skills</h3>
-                            <ul style="text-align: left;">
+                            <ul class="skills-list" style="text-align: left;">
                                 <li>Competitive Analysis from multiple companies</li>
                                 <li>User Data: research and data gathering from users</li>
                                 <li>Creating Prototypes and wireframes for design work</li>
@@ -62,7 +67,7 @@
                                 <li>Tester data gathering</li>
                             </ul>
                             <h3 style="text-align: center;">Tools I Use </h3>
-                            <ul style="text-align: left;">
+                            <ul class="tools-list" style="text-align: left;">
                                 <li>Figma</li>
                                 <li>Adobe Indesign</li>
                                 <li>Photoshop</li>
@@ -70,7 +75,7 @@
                             </ul>       
             </div>
     </main>    
-        <footer id="contact">
+    <footer id="contact">
             <div>
                 <h2>Get in Touch</h2>
                 <p> Do you like my work and want to discuss opportunities? Please get in touch.</p>
@@ -83,16 +88,9 @@
                     <a href="https://www.linkedin.com/in/colvinkenphila/" target="_blank">
                         <img src="img/SocialLogos/Linkedin.png" style="width: 75px;" alt="LinkedIn">
                     </a>
-                    <a href="https://twitter.com/?lang=en" target="_blank">
-                        <img src="img/SocialLogos/TwitterXLogoPNGImage.png" style="width: 75px;"  alt="Twitter">
-                    </a>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img src="img/SocialLogos/Instagram.png" style="width: 75px;" alt="Instgram">
-                    </a>
             </div>
-
-        </footer>
+    </footer>
     <script src="js/JQurey_3.7.1.min.js"></script>
     <script src="js/scripts.js"></script>
     </body>
-</html>
+</html> 
