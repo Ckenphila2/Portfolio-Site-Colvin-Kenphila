@@ -20,8 +20,8 @@ body {
 
   .workcontainer2 {
     display: flex;
-    justify-content: space-between; /* Spacing between elements */
-    align-items: center; /* Vertically center content */
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
   }
 
@@ -61,7 +61,6 @@ body {
   h1 {
     font-size: 2.75em;
     font-weight: 700;
-    color: #1c5b80;
   }
   
   h2 {
@@ -354,6 +353,7 @@ padding-right: 100px;
   line-height: 1.2;
   margin-top: -15px;
   display: block;
+  padding-top: 100px;
 }
 
 /* nav > ul > li {
@@ -475,6 +475,7 @@ Large devices (1024px or larger)
 
   #hero {
     width: 100%;
+    margin-top: 20px;
     margin: 0 auto;
     display: auto;
     flex-wrap: wrap;
