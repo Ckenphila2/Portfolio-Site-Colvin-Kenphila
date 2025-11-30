@@ -218,6 +218,7 @@ body {
 .container {
   width: 100%;
   padding-bottom: 100px;
+  padding-top: 100px;
   margin: 0px auto;
   margin: 0 auto;
 }
@@ -226,6 +227,11 @@ body {
  border: 20px;
 
 } */
+
+.container1 {
+  margin-bottom: 100px;
+  
+}
 
 .row {
   margin: 25px 0;
@@ -320,8 +326,8 @@ main {
 width: 100%;
 margin: 0 auto;
 align-items: center;
-padding-left: 100px;
-padding-right: 100px;
+padding-left: 50px;
+padding-right: 50px;
 }
 
 #hero {
