@@ -327,7 +327,9 @@ width: 100%;
 margin: 0 auto;
 align-items: center;
 padding-left: 50px;
-padding-right: 50px;
+padding-right: 50px; 
+background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+background-repeat: repeat;
 }
 
 #hero {
